@@ -124,3 +124,5 @@ STATIC_URL = '/static/'
 
 #Sending email
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+LOGIN_REDIRECT_URL = '/admin/'
