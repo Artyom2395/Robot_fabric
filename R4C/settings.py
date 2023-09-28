@@ -121,3 +121,6 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#Sending email
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
